@@ -12,7 +12,8 @@ Input file format
 Input file contains four integers 
 x1 y1 x2 y2 — coordinates of area corners.
 
-Output file format
+Output file format:
+
 Output file must contain a single string:
   X if a distance from area to X axis is less than to Y axis;
   Y if a distance from area to X axis is greater than to Y axis;
