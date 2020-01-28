@@ -1,20 +1,17 @@
 # acm-tasks.github.io
 
-Axis of choice
+1) Выбор ближайшей оси координат
 
-Statement
-A rectangular area with sides parallel to coordinate axises is represented by coordinates of two opposite corners (x1,y1) and 
+Описание
+Прямоугольная область со сторонами, параллельными осям координат, представлена координатами двух противоположных углов (x1, y1) и 
 (x2, y2).
 
-Your program must find the coordinate axis which is closest to the given rectangular area.
+Ваша программа должна найти координатную ось, которая расположена ближе к прямоугольнику. 
 
-Input file format
-Input file contains four integers 
-x1 y1 x2 y2 — coordinates of area corners.
+Программа должна принимать четыре числа:
+x1 y1 x2 y2 — координаты углов прямоуголника.
 
-Output file format:
-
-Output file must contain a single string:
-  X if a distance from area to X axis is less than to Y axis;
-  Y if a distance from area to X axis is greater than to Y axis;
-  XY if distances from area to X and Y axises are equal.
+Возможные ответы:
+  X - если расстояние от оси X меньше, чем до оси Y;
+  Y - если расстояние от оси Y меньше, чем до оси X;
+  XY - если расстояния от осей X и Y равны.
